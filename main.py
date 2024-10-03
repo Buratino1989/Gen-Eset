@@ -78,7 +78,7 @@ import re
 
 if '--no-logo' in sys.argv:
     LOGO = f"ESET KeyGen {VERSION[0]} by rzc0d3r\n"
-if datetime.datetime.now().day == 7 and datetime.datetime.now().month == 8: # Birthday of Buratino1900
+if datetime.datetime.now().day == 7 and datetime.datetime.now().month == 8: # Birthday of Buratino
     colored_logo = ''
     colors = [getattr(Fore, attr) for attr in dir(Fore) if not attr.startswith('__')]
     colors.remove(Fore.BLACK)
@@ -89,7 +89,7 @@ if datetime.datetime.now().day == 7 and datetime.datetime.now().month == 8: # Bi
             color = random.choice(colors)
             colored_logo += (color+ch+Fore.RESET)
         colored_logo += '\n'
-    colored_logo += f'{Fore.GREEN}rzc0d3r{Fore.RESET} celebrates his {Fore.LIGHTRED_EX}birthday{Fore.RESET} today!!! :)\n'
+    colored_logo += f'{Fore.GREEN}Buratino{Fore.RESET} celebrates his {Fore.LIGHTRED_EX}birthday{Fore.RESET} today!!! :)\n'
     LOGO = colored_logo
 
 def RunMenu():
