@@ -78,7 +78,7 @@ import re
 
 if '--no-logo' in sys.argv:
     LOGO = f"ESET KeyGen {VERSION[0]} by rzc0d3r\n"
-if datetime.datetime.now().day == 6 and datetime.datetime.now().month == 8: # Birthday of rzc0d3r
+if datetime.datetime.now().day == 7 and datetime.datetime.now().month == 8: # Birthday of Buratino1900
     colored_logo = ''
     colors = [getattr(Fore, attr) for attr in dir(Fore) if not attr.startswith('__')]
     colors.remove(Fore.BLACK)
